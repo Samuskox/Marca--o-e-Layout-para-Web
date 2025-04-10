@@ -1,0 +1,116 @@
+/* Estilos gerais para todas as páginas */
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	background-color: #1e1e2f;
+	color: #e0e0e0;
+}
+
+/* Estilos do cabeçalho */
+.header {
+	height: 10%;
+	background-color: #3a3a5f;
+	text-align: center;
+	line-height: 100%;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* Estilos do rodapé */
+.footer {
+	height: 10%;
+	background-color: #3a3a5f;
+	text-align: center;
+	line-height: 100%;
+	margin-top: auto;
+	color: #ffffff;
+	font-size: 1rem;
+}
+
+/* Estilos do conteúdo */
+.content {
+	flex: 1;
+	background-color: #2a2a3f;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos do Layout 01 */
+.nav {
+	height: 10%;
+	background-color: #4a4a7f;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 15px;
+}
+
+.nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+	color: #ffcc00;
+}
+
+/* Estilos do Layout 02 */
+.leftSideBar {
+	width: 20%;
+	background-color: #4a4a7f;
+	color: #ffffff;
+	position: absolute;
+	height: 80%;
+	top: 10%;
+	left: 0;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.leftSideBar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.leftSideBar ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	transition: background-color 0.3s;
+}
+
+.leftSideBar ul li a:hover {
+	background-color: #5a5a8f;
+}
+
+/* Estilos do Layout 03 */
+.rightSideBar {
+	width: 20%;
+	background-color: #4a4a7f;
+	color: #ffffff;
+	position: absolute;
+	height: 80%;
+	top: 10%;
+	right: 0;
+	border-radius: 10px 0 0 10px;
+	box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+}
